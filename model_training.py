@@ -8,7 +8,7 @@ def main():
     # -------------------------------
     # Roboflow dataset download
     # -------------------------------
-    rf = Roboflow(api_key="j06bCtB2G4wbHBfZTknY")
+    rf = Roboflow(api_key="j06bCtB2G4wbHBf")
 
     project = rf.workspace("vehical-detection-and-counts") \
                 .project("vehical_detection-7c3sr")
